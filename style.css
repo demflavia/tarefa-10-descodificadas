@@ -1,0 +1,39 @@
+*{
+	background-color: pink;
+	text-align: center;
+}
+
+h1 {
+	font-size: 50px;
+	padding: 1em;
+	color: #852999;
+	font-weight: bold;
+}
+
+p {
+	font-size: 20px;
+	color: #C539B4;
+	padding: 1em;
+
+}
+
+ 
+.imagem {
+
+	animation:  pulsar 2s linear;	
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes pulsar {
+	0% {
+		transform: scale(0.9);
+	}
+	50% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(0.9);
+	}
+}
+
